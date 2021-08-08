@@ -1,0 +1,44 @@
+* {
+    font-family: "Mabry Pro";
+}
+
+.title {
+    font-size: 7vw;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 35vh;
+    width: 100%;
+}
+
+
+@media (mix-width: 900px) {
+    .header {
+        height: 25vh;
+    }
+    .title {
+        font-size: 11vw;
+    }
+}
+
+.inputs {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.search, .select {
+    width: 43%;
+}
+
+label, input {
+    font-family: "Mabry Pro";
+}
